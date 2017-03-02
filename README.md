@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/like2learn/simpletestcourse.svg?branch=master)](https://travis-ci.org/like2learn/simpletestcourse)
+[![codecov](https://codecov.io/gh/like2learn/simpletestcourse/branch/master/graph/badge.svg)](https://codecov.io/gh/like2learn/simpletestcourse)
+
 ##Простой курс - тест.
 ###Задания
 1. Реализовать программу калькулятор. Калькулятор должен выполнять операции:
