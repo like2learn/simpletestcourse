@@ -1,0 +1,15 @@
+language: java
+jdk: oraclejdk8
+
+env:
+  - NOTIF_EMAIL=author_email
+  - NOTIF_SLACK=author_slack
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
+notifications:
+  email:
+    - NOTIF_EMAIL
+  slack:
+    - NOTIF_SLACK
