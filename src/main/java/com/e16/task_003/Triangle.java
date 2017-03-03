@@ -8,6 +8,21 @@ public class Triangle {
     private final Point a;
     private final Point b;
     private final Point c;
+    private final double ab;
+    private final double ac;
+    private final double bc;
+
+    public double getAB() {
+        return ab;
+    }
+
+    public double getAC() {
+        return ac;
+    }
+
+    public double getBC() {
+        return bc;
+    }
 
     public Triangle(final Point a, final Point b, final Point c) {
         this.a = a;
@@ -15,6 +30,10 @@ public class Triangle {
         this.c = c;
         log.info("Creating triangle with points {}, {}; {}, {}; {}, {}",
                 a.getX(), a.getY(), b.getX(), b.getY(), c.getX(), c.getY());
+        ab = a.distanceTo(b);
+        ac = a.distanceTo(c);
+        bc = b.distanceTo(c);
+        log.info("Creating lines from points {}, {}, {}", ab, ac, bc);
     }
 
     /**
@@ -25,9 +44,6 @@ public class Triangle {
      * @return true if triangle exist
      */
     public boolean exists() throws IllegalStateException {
-        double ab = a.distanceTo(b);
-        double ac = a.distanceTo(c);
-        double bc = b.distanceTo(c);
         log.info("Check Triangle with sides {}, {}, {} to exists", ab, ac, bc);
         return ab + ac > bc && ab + bc > ac && ac + bc > ab;
     }
