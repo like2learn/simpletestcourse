@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class IsoscelesTriangle extends Triangle {
-    private static final Logger log = LoggerFactory.getLogger(Triangle.class);
+    private static final Logger log = LoggerFactory.getLogger(IsoscelesTriangle.class);
 
     public IsoscelesTriangle(Point a, Point b, Point c) {
         super(a, b, c);
