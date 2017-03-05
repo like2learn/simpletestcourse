@@ -19,7 +19,7 @@ public class ArrayContainsOne {
 
     /**
      * Check {@link #values} for not contains {@link #zero}
-     * @return false is contains zero, true if otherwise
+     * @return false if contains zero, otherwise true
      */
     public boolean isContainsOnlyOne() {
         if (values == null || values.length == 0) {
