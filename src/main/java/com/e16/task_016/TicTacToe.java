@@ -1,12 +1,11 @@
 package com.e16.task_016;
 
-import com.e16.task_015.ShiftArray;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class TicTacToe {
     private static final Logger log =
-            LoggerFactory.getLogger(ShiftArray.class);
+            LoggerFactory.getLogger(TicTacToe.class);
 
     private final int[][] values;
 
