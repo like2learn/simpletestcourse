@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/like2learn/simpletestcourse.svg?branch=master)](https://travis-ci.org/like2learn/simpletestcourse)
 [![codecov](https://codecov.io/gh/like2learn/simpletestcourse/branch/master/graph/badge.svg)](https://codecov.io/gh/like2learn/simpletestcourse)
 
-##Простой курс - тест.
+## Простой курс - тест.
 
-###Задания
+### Задания
 1. Реализовать программу калькулятор. Калькулятор должен выполнять операции:
    сложение, вычитание, умножение, деление, возведение в степень.
    При выполнении деления ввести проверку на 0.
