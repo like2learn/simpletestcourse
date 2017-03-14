@@ -2,6 +2,7 @@
 [![codecov](https://codecov.io/gh/like2learn/simpletestcourse/branch/master/graph/badge.svg)](https://codecov.io/gh/like2learn/simpletestcourse)
 
 ##Простой курс - тест.
+
 ###Задания
 1. Реализовать программу калькулятор. Калькулятор должен выполнять операции:
    сложение, вычитание, умножение, деление, возведение в степень.
